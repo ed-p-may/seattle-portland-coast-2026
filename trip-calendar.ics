@@ -18,14 +18,16 @@ DTSTAMP:20260815T210000Z
 DTSTART:20260922T150000Z
 DTEND:20260923T023000Z
 SUMMARY:Seattle day: 5 Spot, daytime choice, Il Nido
-DESCRIPTION:Daytime choice remains Samish Bay or Ballard working waterfront.
+DESCRIPTION:Daytime choice remains Samish Bay or Ballard working
+ waterfront.
 END:VEVENT
 BEGIN:VEVENT
 UID:portland-drive-20260923@pnw-family-trip
 DTSTAMP:20260815T210000Z
 DTSTART:20260923T153000Z
 DTEND:20260924T020000Z
-SUMMARY:Drive to Portland; Paxton Gate and dinner
+SUMMARY:Centralia stop; Portland; Paxton Gate and dinner
+DESCRIPTION:Recommended I-5 stop is the historic Olympic Club in Centralia.
 END:VEVENT
 BEGIN:VEVENT
 UID:dahlia-20260924@pnw-family-trip
@@ -51,12 +53,14 @@ DTEND:20260925T230000Z
 SUMMARY:Screen Door breakfast and drive to Manzanita
 END:VEVENT
 BEGIN:VEVENT
-UID:garibaldi-20260926@pnw-family-trip
+UID:tillamook-salmon-20260926@pnw-family-trip
 DTSTAMP:20260815T210000Z
-DTSTART:20260926T174500Z
-DTEND:20260926T203000Z
-SUMMARY:Garibaldi dock fishing and crabbing
-LOCATION:Garibaldi Boat Basin\, Garibaldi\, OR
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Tillamook salmon fishing; Garibaldi optional
+DESCRIPTION:Guide sets fishing time. Regroup in Garibaldi afterward; add
+ brief crabbing only if timing works.
+LOCATION:Tillamook County\, OR
 END:VEVENT
 BEGIN:VEVENT
 UID:return-20260927@pnw-family-trip
