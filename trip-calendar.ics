@@ -13,13 +13,31 @@ SUMMARY:Arrive at SEA
 LOCATION:Seattle-Tacoma International Airport
 END:VEVENT
 BEGIN:VEVENT
+UID:seattle-vrbo-checkin-20260921@pnw-family-trip
+DTSTAMP:20260826T182636Z
+DTSTART:20260921T230000Z
+SUMMARY:Check in: Bright West Seattle 3BR
+DESCRIPTION:Reservation confirmed for September 21-23. Add the exact street
+ address from the booking confirmation.
+LOCATION:West Seattle Junction\, Seattle\, WA
+URL:https://www.vrbo.com/5130391
+END:VEVENT
+BEGIN:VEVENT
 UID:seattle-20260922@pnw-family-trip
 DTSTAMP:20260815T210000Z
 DTSTART:20260922T150000Z
-DTEND:20260923T023000Z
-SUMMARY:Seattle day: 5 Spot, daytime choice, Il Nido
+DTEND:20260923T010000Z
+SUMMARY:Seattle day: 5 Spot and daytime choice
 DESCRIPTION:Daytime choice remains Samish Bay or Ballard working
  waterfront.
+END:VEVENT
+BEGIN:VEVENT
+UID:il-nido-20260922@pnw-family-trip
+DTSTAMP:20260826T181926Z
+DTSTART:20260923T013000Z
+SUMMARY:Il Nido dinner reservation
+DESCRIPTION:Reservation confirmed for Tuesday\, September 22 at 6:30 PM.
+LOCATION:2717 61st Ave SW\, Seattle\, WA 98116
 END:VEVENT
 BEGIN:VEVENT
 UID:portland-drive-20260923@pnw-family-trip
@@ -31,26 +49,27 @@ DESCRIPTION:Recommended I-5 stop is the historic Olympic Club in Centralia.
 END:VEVENT
 BEGIN:VEVENT
 UID:dahlia-20260924@pnw-family-trip
-DTSTAMP:20260815T210000Z
+DTSTAMP:20260826T182119Z
 DTSTART:20260924T160000Z
 DTEND:20260924T183000Z
 SUMMARY:Swan Island Dahlia Festival
+DESCRIPTION:Drive directly from Canby to Manzanita after lunch.
 LOCATION:995 NW 22nd Ave\, Canby\, OR 97013
 END:VEVENT
 BEGIN:VEVENT
-UID:powells-20260924@pnw-family-trip
-DTSTAMP:20260815T210000Z
-DTSTART:20260924T233000Z
-DTEND:20260925T010000Z
-SUMMARY:Powell's City of Books
-LOCATION:1005 W Burnside St\, Portland\, OR 97209
+UID:canby-manzanita-20260924@pnw-family-trip
+DTSTAMP:20260826T182119Z
+DTSTART:20260924T193000Z
+DTEND:20260924T230000Z
+SUMMARY:Drive from Canby to Manzanita
+LOCATION:Manzanita\, OR
 END:VEVENT
 BEGIN:VEVENT
 UID:coast-20260925@pnw-family-trip
-DTSTAMP:20260815T210000Z
-DTSTART:20260925T153000Z
-DTEND:20260925T230000Z
-SUMMARY:Screen Door breakfast and drive to Manzanita
+DTSTAMP:20260826T182119Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Manzanita and Tillamook coast day
 END:VEVENT
 BEGIN:VEVENT
 UID:tillamook-salmon-20260926@pnw-family-trip
