@@ -173,6 +173,33 @@ h2 { margin: 0; font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1; letter-spac
 .timeline time { color: var(--muted); font-size: .82rem; font-weight: 650; }
 .timeline p { display: grid; margin: 0; }
 .timeline span { color: var(--muted); font-size: .88rem; }
+.timeline-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .3rem .75rem;
+  margin-top: .35rem;
+}
+.timeline span.timeline-links,
+.timeline-links .resource-link { font-size: .78rem; }
+.timeline strong,
+.stay-grid h3 { display: flex; align-items: center; flex-wrap: wrap; gap: .45rem; }
+.status-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.25rem;
+  padding: .1rem .42rem;
+  border: 1px solid;
+  border-radius: 999px;
+  font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  font-weight: 750;
+  line-height: 1;
+  letter-spacing: .035em;
+  text-transform: uppercase;
+}
+.timeline span.status-chip,
+.stay-grid span.status-chip { font-size: .6rem; }
+.status-confirmed { color: #1f6844 !important; background: #e7f3eb; border-color: #a9d0b8; }
+.status-tbd { color: #982f35 !important; background: #fae9ea; border-color: #dfb2b5; }
 .timeline > .overnight-row { margin-top: .35rem; border-top-color: var(--accent); }
 .overnight-row time { color: var(--accent); }
 .overnight-address,
