@@ -5,6 +5,17 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Seattle Portland Coast 2026
 BEGIN:VEVENT
+UID:sheraton-bradley-20260920@pnw-family-trip
+DTSTAMP:20260902T200000Z
+DTSTART:20260920T190000Z
+DTEND:20260921T160000Z
+SUMMARY:Sheraton Bradley Airport - two rooms
+DESCRIPTION:Confirmed for Sunday night. Hotel is connected to Terminal A; no
+ hotel shuttle is needed. Standard check-in is 3:00 PM and check-out is noon.
+LOCATION:1 Bradley International Airport\, Windsor Locks\, CT 06096
+URL:https://www.marriott.com/en-us/hotels/bdlsi-sheraton-hartford-hotel-at-bradley-airport/overview/
+END:VEVENT
+BEGIN:VEVENT
 UID:arrival-20260921@pnw-family-trip
 DTSTAMP:20260902T190000Z
 DTSTART:20260921T190000Z
@@ -22,12 +33,12 @@ URL:https://www.portseattle.org/sea/ground-transportation/rental-car
 END:VEVENT
 BEGIN:VEVENT
 UID:seattle-vrbo-checkin-20260921@pnw-family-trip
-DTSTAMP:20260826T182636Z
+DTSTAMP:20260902T200000Z
 DTSTART:20260921T230000Z
 SUMMARY:Check in: Bright West Seattle 3BR
-DESCRIPTION:Reservation confirmed for September 21-23. Add the exact street
- address from the booking confirmation.
-LOCATION:West Seattle Junction\, Seattle\, WA
+DESCRIPTION:VRBO reservation confirmed for Monday and Tuesday nights\,
+ September 21-22.
+LOCATION:4543 40th Ave SW\, Seattle\, WA
 URL:https://www.vrbo.com/5130391
 END:VEVENT
 BEGIN:VEVENT
@@ -56,6 +67,17 @@ SUMMARY:Centralia stop; Portland; Paxton Gate and dinner
 DESCRIPTION:Recommended I-5 stop is the historic Olympic Club in Centralia.
 END:VEVENT
 BEGIN:VEVENT
+UID:portland-airbnb-20260923@pnw-family-trip
+DTSTAMP:20260902T200000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:Portland Airbnb
+DESCRIPTION:Confirmed for Wednesday night. Check the Airbnb reservation message
+ for the host-set access time.
+LOCATION:3835 N Borthwick Ave\, Portland\, OR 97227
+URL:https://www.airbnb.com/trips/v1
+END:VEVENT
+BEGIN:VEVENT
 UID:dahlia-20260924@pnw-family-trip
 DTSTAMP:20260826T182119Z
 DTSTART:20260924T160000Z
@@ -71,6 +93,17 @@ DTSTART:20260924T193000Z
 DTEND:20260924T230000Z
 SUMMARY:Drive from Canby to Manzanita
 LOCATION:Manzanita\, OR
+END:VEVENT
+BEGIN:VEVENT
+UID:oceanfront-manzanita-20260924@pnw-family-trip
+DTSTAMP:20260902T200000Z
+DTSTART:20260925T000000Z
+DTEND:20260927T170000Z
+SUMMARY:Oceanfront Manzanita VRBO
+DESCRIPTION:Confirmed for Thursday through Saturday nights. Check-in is after
+ 5:00 PM Thursday; checkout is before 10:00 AM Sunday.
+LOCATION:745 Beach St\, Manzanita\, OR 97130
+URL:https://www.vrbo.com/3063868
 END:VEVENT
 BEGIN:VEVENT
 UID:coast-20260925@pnw-family-trip
@@ -95,13 +128,27 @@ DTSTAMP:20260902T190000Z
 DTSTART:20260927T150000Z
 DTEND:20260928T013000Z
 SUMMARY:Cannon Beach, Astoria, and return Hertz SUV at SEA
-DESCRIPTION:Unload passengers and luggage at the SeaTac hotel about 5:30 PM.
+DESCRIPTION:Unload passengers and luggage at the Holiday Inn Express about 5:30
+ PM.
  Return the Hertz Standard SUV by 6:00 PM at 3150 S 160th St. Refuel to the
  contracted level\, retain the fuel and Hertz receipts\, and photograph the
  vehicle\, fuel gauge\, and odometer. Take the free rental-car shuttle to the
- terminal; if staying at Coast Gateway\, call 206-248-8200 for its shuttle.
+ terminal; call the Holiday Inn Express at 206-824-3200 for its 24-hour shuttle
+ from parking-garage Level 3\, courtesy island 1 or 3.
 LOCATION:SEA Rental Car Facility\, 3150 S 160th St\, SeaTac\, WA 98188
 URL:https://www.portseattle.org/places/rental-car-facility
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-inn-seatac-20260927@pnw-family-trip
+DTSTAMP:20260902T200000Z
+DTSTART:20260928T003000Z
+DTEND:20260928T103000Z
+SUMMARY:Holiday Inn Express Sea-Tac - two rooms
+DESCRIPTION:Confirmed for Sunday night. Complimentary airport shuttle runs 24
+ hours; call 206-824-3200. Breakfast begins at 5:00 AM\, after the planned 3:30
+ AM hotel departure.
+LOCATION:19621 International Blvd\, SeaTac\, WA 98188
+URL:https://www.ihg.com/holidayinnexpress/hotels/us/en/seatac/seaib/hoteldetail
 END:VEVENT
 BEGIN:VEVENT
 UID:departure-20260928@pnw-family-trip

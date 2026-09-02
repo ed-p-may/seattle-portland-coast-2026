@@ -1,4 +1,4 @@
-const tripStart = new Date("2026-09-21T00:00:00-07:00");
+const tripStart = new Date("2026-09-20T00:00:00-04:00");
 const tripEnd = new Date("2026-09-28T23:59:59-07:00");
 const now = new Date();
 const countdown = document.querySelector("#countdown");
@@ -7,11 +7,11 @@ const todayButton = document.querySelector("#today-button");
 if (countdown) {
   if (now < tripStart) {
     const days = Math.ceil((tripStart - now) / 86_400_000);
-    countdown.textContent = `${days} day${days === 1 ? "" : "s"} until Seattle`;
+    countdown.textContent = `${days} day${days === 1 ? "" : "s"} until the trip`;
   } else if (now <= tripEnd) {
     countdown.textContent = "We’re on the road";
   } else {
-    countdown.textContent = "September 21–28, 2026";
+    countdown.textContent = "September 20–28, 2026";
   }
 }
 
