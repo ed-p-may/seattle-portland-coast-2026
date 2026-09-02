@@ -28,7 +28,7 @@ jobs:
       - name: Stage public files
         run: |
           mkdir _site
-          cp index.html food.html styles.css food.css app.js manifest.webmanifest robots.txt trip-calendar.ics .nojekyll _site/
+          cp index.html food.html fishing.html styles.css food.css fishing.css app.js manifest.webmanifest robots.txt trip-calendar.ics .nojekyll _site/
           cp -R assets _site/
       - name: Upload site
         uses: actions/upload-pages-artifact@v3

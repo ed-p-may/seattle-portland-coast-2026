@@ -526,7 +526,7 @@
 }
 
 @media (max-width: 760px) {
-  .food-page .nav-links a:not(.food-nav-link) { display: none; }
+  .food-page .nav-links a:not(.food-nav-link):not(.fishing-nav-link) { display: none; }
   .food-hero-grid { grid-template-columns: 1fr; min-height: 0; padding-top: 3.2rem; }
   .food-hero h1 { max-width: none; font-size: clamp(4.4rem, 22vw, 7rem); }
   .food-deck { font-size: 1.22rem; }
