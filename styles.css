@@ -278,7 +278,7 @@ footer {
 }
 
 @media (max-width: 720px) {
-  .nav-links a { display: none; }
+  .nav-links a:not(.food-nav-link) { display: none; }
   .day-jump { justify-content: flex-start; }
   .section-heading { align-items: flex-start; flex-direction: column; }
   .day-card { grid-template-columns: 1fr; }
