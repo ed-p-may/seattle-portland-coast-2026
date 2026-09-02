@@ -11,6 +11,12 @@ DTSTART:20260921T190000Z
 DTEND:20260921T210000Z
 SUMMARY:Arrive at SEA
 LOCATION:Seattle-Tacoma International Airport
+DESCRIPTION:Collect bags\, then take the free 24-hour Rental Car Shuttle from
+ the north or south end of the Baggage Claim lower drive. No train. Shuttle
+ ride is about five minutes. Allow 60-90 minutes from the gate to driving away;
+ 1:30 PM is likely and 2:00 PM is the conservative case. Rental company and
+ confirmation details TBD.
+URL:https://www.portseattle.org/sea/ground-transportation/rental-car
 END:VEVENT
 BEGIN:VEVENT
 UID:seattle-vrbo-checkin-20260921@pnw-family-trip
