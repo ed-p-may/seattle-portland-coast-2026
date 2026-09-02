@@ -6,16 +6,18 @@ METHOD:PUBLISH
 X-WR-CALNAME:Seattle Portland Coast 2026
 BEGIN:VEVENT
 UID:arrival-20260921@pnw-family-trip
-DTSTAMP:20260815T210000Z
+DTSTAMP:20260902T190000Z
 DTSTART:20260921T190000Z
 DTEND:20260921T210000Z
 SUMMARY:Arrive at SEA
 LOCATION:Seattle-Tacoma International Airport
 DESCRIPTION:Collect bags\, then take the free 24-hour Rental Car Shuttle from
  the north or south end of the Baggage Claim lower drive. No train. Shuttle
- ride is about five minutes. Allow 60-90 minutes from the gate to driving away;
- 1:30 PM is likely and 2:00 PM is the conservative case. Rental company and
- confirmation details TBD.
+ ride is about five minutes. Hertz Standard SUV pickup is confirmed for 1:00
+ PM at the SEA Rental Car Facility. Chevrolet Blazer or similar\, five
+ passengers\, 2WD. Bring the primary driver's license and Chase Sapphire
+ Preferred; confirmation code is in the Hertz email. Photograph the vehicle\,
+ fuel gauge\, and odometer before leaving.
 URL:https://www.portseattle.org/sea/ground-transportation/rental-car
 END:VEVENT
 BEGIN:VEVENT
@@ -89,10 +91,17 @@ LOCATION:Tillamook County\, OR
 END:VEVENT
 BEGIN:VEVENT
 UID:return-20260927@pnw-family-trip
-DTSTAMP:20260815T210000Z
+DTSTAMP:20260902T190000Z
 DTSTART:20260927T150000Z
-DTEND:20260928T010000Z
-SUMMARY:Cannon Beach, Astoria, and return to SeaTac
+DTEND:20260928T013000Z
+SUMMARY:Cannon Beach, Astoria, and return Hertz SUV at SEA
+DESCRIPTION:Unload passengers and luggage at the SeaTac hotel about 5:30 PM.
+ Return the Hertz Standard SUV by 6:00 PM at 3150 S 160th St. Refuel to the
+ contracted level\, retain the fuel and Hertz receipts\, and photograph the
+ vehicle\, fuel gauge\, and odometer. Take the free rental-car shuttle to the
+ terminal; if staying at Coast Gateway\, call 206-248-8200 for its shuttle.
+LOCATION:SEA Rental Car Facility\, 3150 S 160th St\, SeaTac\, WA 98188
+URL:https://www.portseattle.org/places/rental-car-facility
 END:VEVENT
 BEGIN:VEVENT
 UID:departure-20260928@pnw-family-trip
