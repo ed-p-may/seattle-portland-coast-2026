@@ -79,20 +79,53 @@ URL:https://www.airbnb.com/trips/v1
 END:VEVENT
 BEGIN:VEVENT
 UID:dahlia-20260924@pnw-family-trip
-DTSTAMP:20260826T182119Z
+DTSTAMP:20260917T120000Z
 DTSTART:20260924T160000Z
-DTEND:20260924T183000Z
+DTEND:20260924T193000Z
 SUMMARY:Swan Island Dahlia Festival
-DESCRIPTION:Drive directly from Canby to Manzanita after lunch.
+DESCRIPTION:Visit until 12:30 PM. Choose lunch in Canby or the festival food
+ trucks; leave for Portland at 1:00 PM.
 LOCATION:995 NW 22nd Ave\, Canby\, OR 97013
 END:VEVENT
 BEGIN:VEVENT
-UID:canby-manzanita-20260924@pnw-family-trip
-DTSTAMP:20260826T182119Z
-DTSTART:20260924T193000Z
+UID:canby-portland-20260924@pnw-family-trip
+DTSTAMP:20260917T120000Z
+DTSTART:20260924T200000Z
+DTEND:20260924T210000Z
+SUMMARY:Return from Canby to Portland
+DESCRIPTION:Brian stays in Portland. Ed\, Barb\, and Chris continue in the
+ rental car to Manzanita.
+LOCATION:Portland\, OR
+END:VEVENT
+BEGIN:VEVENT
+UID:first-car-manzanita-20260924@pnw-family-trip
+DTSTAMP:20260917T120000Z
+DTSTART:20260924T210000Z
 DTEND:20260924T230000Z
-SUMMARY:Drive from Canby to Manzanita
+SUMMARY:Ed\, Barb\, and Chris drive to Manzanita
+DESCRIPTION:First car reaches the coast in daylight. Have an early dinner while
+ waiting for the 5:00 PM house access.
 LOCATION:Manzanita\, OR
+END:VEVENT
+BEGIN:VEVENT
+UID:portland-appointment-20260924@pnw-family-trip
+DTSTAMP:20260917T120000Z
+DTSTART:20260924T230000Z
+DTEND:20260925T000000Z
+SUMMARY:Portland appointment
+DESCRIPTION:Brian remains in Portland. Ari drives from Seattle and picks up
+ Brian and Tom after the appointment.
+LOCATION:Portland\, OR
+END:VEVENT
+BEGIN:VEVENT
+UID:portland-manzanita-20260924@pnw-family-trip
+DTSTAMP:20260917T120000Z
+DTSTART:20260925T000000Z
+DTEND:20260925T020000Z
+SUMMARY:Ari\, Brian\, and Tom drive to Manzanita
+DESCRIPTION:Ari picks up Brian and Tom after the appointment. Drive directly
+ to the house; sunset in Manzanita is 7:08 PM.
+LOCATION:745 Beach St\, Manzanita\, OR 97130
 END:VEVENT
 BEGIN:VEVENT
 UID:oceanfront-manzanita-20260924@pnw-family-trip
