@@ -229,4 +229,14 @@ LOCATION:Portland\, OR
 DESCRIPTION:Arrive at 3:35 PM PDT. Brian picks up Ari. After Tom’s appointment
  ends at 5:00 PM\, all three drive to Manzanita in Brian’s car.
 END:VEVENT
+BEGIN:VEVENT
+UID:saltys-dinner-20260921@pnw-family-trip
+DTSTAMP:20260918T180000Z
+DTSTART:20260922T010000Z
+SUMMARY:Salty’s on Alki Beach dinner reservation
+DESCRIPTION:Confirmed for Monday September 21 at 6:00 PM Pacific.
+ Phone: (206) 937-1600.
+LOCATION:1936 Harbor Avenue SW\, Seattle\, WA 98126
+URL:https://saltys.com/seattle/
+END:VEVENT
 END:VCALENDAR
