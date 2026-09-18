@@ -17,8 +17,8 @@ URL:https://www.marriott.com/en-us/hotels/bdlsi-sheraton-hartford-hotel-at-bradl
 END:VEVENT
 BEGIN:VEVENT
 UID:arrival-20260921@pnw-family-trip
-DTSTAMP:20260902T190000Z
-DTSTART:20260921T190000Z
+DTSTAMP:20260918T180000Z
+DTSTART:20260921T190700Z
 DTEND:20260921T210000Z
 SUMMARY:Arrive at SEA
 LOCATION:Seattle-Tacoma International Airport
@@ -60,11 +60,12 @@ LOCATION:2717 61st Ave SW\, Seattle\, WA 98116
 END:VEVENT
 BEGIN:VEVENT
 UID:portland-drive-20260923@pnw-family-trip
-DTSTAMP:20260815T210000Z
+DTSTAMP:20260918T180000Z
 DTSTART:20260923T153000Z
 DTEND:20260924T020000Z
 SUMMARY:Centralia stop; Portland; Paxton Gate and dinner
-DESCRIPTION:Recommended I-5 stop is the historic Olympic Club in Centralia.
+DESCRIPTION:Travel in two vehicles: Brian’s car and the rental car.
+ Recommended I-5 stop is the historic Olympic Club in Centralia.
 END:VEVENT
 BEGIN:VEVENT
 UID:portland-airbnb-20260923@pnw-family-trip
@@ -109,22 +110,22 @@ LOCATION:Manzanita\, OR
 END:VEVENT
 BEGIN:VEVENT
 UID:portland-appointment-20260924@pnw-family-trip
-DTSTAMP:20260917T120000Z
+DTSTAMP:20260918T180000Z
 DTSTART:20260924T230000Z
 DTEND:20260925T000000Z
 SUMMARY:Portland appointment
-DESCRIPTION:Brian remains in Portland. Ari drives from Seattle and picks up
- Brian and Tom after the appointment.
+DESCRIPTION:Brian picks up Ari after the train arrives at 3:35 PM. Tom’s
+ appointment ends at 5:00 PM; all three then drive to Manzanita.
 LOCATION:Portland\, OR
 END:VEVENT
 BEGIN:VEVENT
 UID:portland-manzanita-20260924@pnw-family-trip
-DTSTAMP:20260917T120000Z
+DTSTAMP:20260918T180000Z
 DTSTART:20260925T000000Z
 DTEND:20260925T020000Z
 SUMMARY:Ari\, Brian\, and Tom drive to Manzanita
-DESCRIPTION:Ari picks up Brian and Tom after the appointment. Drive directly
- to the house; sunset in Manzanita is 7:08 PM.
+DESCRIPTION:After Tom’s appointment ends at 5:00 PM\, Brian\, Ari\, and Tom
+ drive to Manzanita in Brian’s car; sunset is 7:08 PM.
 LOCATION:745 Beach St\, Manzanita\, OR 97130
 END:VEVENT
 BEGIN:VEVENT
@@ -190,5 +191,42 @@ DTSTART:20260928T130000Z
 DTEND:20260928T133000Z
 SUMMARY:Flight departs SEA
 LOCATION:Seattle-Tacoma International Airport
+END:VEVENT
+BEGIN:VEVENT
+UID:dl2933-20260921@pnw-family-trip
+DTSTAMP:20260918T180000Z
+DTSTART:20260921T100000Z
+DTEND:20260921T123200Z
+SUMMARY:DL2933: BDL to ATL
+LOCATION:Bradley International Airport → Atlanta
+DESCRIPTION:6:00 AM BDL to 8:32 AM ATL (EDT).
+URL:https://www.delta.com/flightstatus/
+END:VEVENT
+BEGIN:VEVENT
+UID:dl774-20260921@pnw-family-trip
+DTSTAMP:20260918T180000Z
+DTSTART:20260921T134000Z
+DTEND:20260921T190700Z
+SUMMARY:DL774: ATL to SEA
+LOCATION:Atlanta → Seattle-Tacoma International Airport
+DESCRIPTION:9:40 AM EDT ATL to 12:07 PM PDT SEA.
+URL:https://www.delta.com/flightstatus/
+END:VEVENT
+BEGIN:VEVENT
+UID:tom-train-20260921@pnw-family-trip
+DTSTAMP:20260918T180000Z
+DTSTART:20260921T210000Z
+SUMMARY:Tom arrives by train from Portland
+LOCATION:King Street Station\, Seattle
+DESCRIPTION:Tom takes Amtrak from Portland to Seattle; arrives at 2:00 PM PDT.
+END:VEVENT
+BEGIN:VEVENT
+UID:ari-train-20260924@pnw-family-trip
+DTSTAMP:20260918T180000Z
+DTSTART:20260924T223500Z
+SUMMARY:Ari arrives by train from Seattle
+LOCATION:Portland\, OR
+DESCRIPTION:Arrive at 3:35 PM PDT. Brian picks up Ari. After Tom’s appointment
+ ends at 5:00 PM\, all three drive to Manzanita in Brian’s car.
 END:VEVENT
 END:VCALENDAR
