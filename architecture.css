@@ -1,0 +1,123 @@
+.arch-page {
+  --food-ink: #1d2733;
+  --food-paper: #f1eee7;
+  --food-cream: #fffdf7;
+  --food-teal: #22323f;
+  --food-salmon: #b5502f;
+  --food-mustard: #cf9a2f;
+  --food-green: #4a5b4a;
+  --food-line: rgba(29, 39, 51, .22);
+}
+
+.arch-hero {
+  background:
+    linear-gradient(118deg, rgba(25, 37, 47, .97), rgba(38, 56, 69, .93)),
+    var(--food-teal);
+}
+
+/* No photography on this page: the hero runs copy beside a typographic index. */
+.arch-page .food-hero-grid {
+  grid-template-columns: minmax(0, 1.05fr) minmax(300px, .95fr);
+  min-height: 0;
+}
+
+.arch-page .food-hero h1 { max-width: 640px; }
+
+.hero-index {
+  align-self: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid rgba(255, 253, 247, .35);
+}
+
+.hero-index li {
+  display: grid;
+  grid-template-columns: 2.5rem minmax(0, 1fr) auto;
+  gap: .9rem;
+  align-items: baseline;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255, 253, 247, .22);
+}
+
+.hero-index span { color: var(--food-mustard); font: 400 1.15rem/1 Iowan Old Style, Baskerville, Georgia, serif; }
+.hero-index strong { display: block; color: var(--food-cream); font: 400 1.6rem/1 Iowan Old Style, Baskerville, Georgia, serif; }
+.hero-index small { display: block; margin-top: .3rem; color: rgba(255, 253, 247, .66); font-size: .78rem; }
+.hero-index a { color: #ffd581; font-size: .72rem; font-weight: 750; white-space: nowrap; text-underline-offset: .22rem; }
+
+/* Card internals: a credit line, then the essay, then terrain + links. */
+.arch-credit {
+  margin: .45rem 0 0 !important;
+  color: var(--food-ink) !important;
+  font-size: .8rem !important;
+  font-weight: 750;
+  letter-spacing: .01em;
+}
+
+.arch-credit em { color: #6b7481; font-style: normal; font-weight: 600; }
+
+.terrain-note {
+  margin-top: 1rem !important;
+  padding: .6rem .8rem;
+  color: #4a5661 !important;
+  background: rgba(29, 39, 51, .05);
+  border-left: 3px solid var(--food-mustard);
+  font-size: .8rem !important;
+}
+
+.terrain-note strong { color: var(--food-ink); }
+
+.pick-chip.year { color: var(--food-cream); background: var(--food-teal); letter-spacing: .06em; }
+.pick-chip.closed { color: var(--food-cream); background: #8d3a2c; }
+.pick-chip.booked { color: #3c2a15; background: var(--food-mustard); }
+
+.arch-page .region-pearl { background: #e2e7e4; box-shadow: 0 0 0 100vmax #e2e7e4; }
+.arch-page .region-coast { background: #dfe6e9; box-shadow: 0 0 0 100vmax #dfe6e9; }
+
+/* A short paired-stop strip under a card cluster. */
+.nearby-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid var(--food-ink);
+}
+
+.nearby-strip > p:first-child {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: var(--food-salmon);
+  font-size: .68rem;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.nearby-strip article p { margin: .35rem 0 0; color: #58636e; font-size: .84rem; }
+.nearby-strip strong { color: var(--food-ink); font: 400 1.25rem/1.15 Iowan Old Style, Baskerville, Georgia, serif; }
+.nearby-strip a { color: var(--food-teal); font-size: .74rem; font-weight: 750; text-underline-offset: .22rem; }
+.nearby-strip a::after { content: " ↗"; text-decoration: none; }
+
+.reading-list { margin-top: 1.5rem; }
+.research-note { margin-top: 1.5rem !important; font-size: .72rem; }
+
+@media (max-width: 880px) {
+  .arch-page .food-hero-grid { grid-template-columns: 1fr; }
+  .hero-index li { grid-template-columns: 2rem minmax(0, 1fr); }
+  .hero-index a { grid-column: 2; }
+}
+
+@media (max-width: 760px) {
+  .arch-page .nav-links a { display: inline; }
+  .arch-page .food-topbar .wordmark { font-size: .72rem; }
+  .arch-page .food-topbar .nav-links a { font-size: .7rem; }
+  .arch-page .food-topbar .nav-links { gap: .65rem; }
+}
+
+@media (max-width: 430px) {
+  .arch-page .food-topbar { gap: .7rem; }
+  .arch-page .food-topbar .wordmark { max-width: 86px; line-height: 1.15; }
+  .arch-page .food-topbar .nav-links a { font-size: .64rem; }
+  .arch-page .food-topbar .nav-links { gap: .5rem; }
+}
