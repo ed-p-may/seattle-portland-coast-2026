@@ -60,12 +60,21 @@ LOCATION:2717 61st Ave SW\, Seattle\, WA 98116
 END:VEVENT
 BEGIN:VEVENT
 UID:portland-drive-20260923@pnw-family-trip
-DTSTAMP:20260918T180000Z
-DTSTART:20260923T153000Z
-DTEND:20260924T020000Z
-SUMMARY:Centralia stop; Portland; Paxton Gate and dinner
-DESCRIPTION:Travel in two vehicles: Brian’s car and the rental car.
- Recommended I-5 stop is the historic Olympic Club in Centralia.
+DTSTAMP:20260920T180000Z
+DTSTART:20260923T170000Z
+DTEND:20260924T040000Z
+SUMMARY:Seattle to Portland: Centralia lunch\, Powell's\, Jake's
+DESCRIPTION:Breakfast in West Seattle first (Luna Park Cafe\, 2918 SW Avalon
+ Way\, opens 8:00; Bakery Nouveau in the Junction is the counter alternative)\,
+ then leave at 10:00 in two vehicles: Brian’s car and the rental car. First
+ leg is about 85 miles to Centralia\, arriving near 11:45 for a Tower Avenue
+ walk and noon lunch at McMenamins Olympic Club\, 112 N Tower Ave (Berry
+ Fields Cafe\, 201 S Pearl St\, is the lighter alternative). Leave Centralia at
+ 1:30 for the second leg\, about 90 miles\, arriving Portland near 3:15. Short
+ Paxton Gate stop after check-in\, then drive downtown to Powell's City of
+ Books\, 1005 W Burnside St\, open until 9:00. Dinner at Jake's Famous
+ Crawfish\, 401 SW 12th Ave\, a three-minute walk from Powell's - reservation
+ for five still needs to be booked: (503) 226-1419.
 END:VEVENT
 BEGIN:VEVENT
 UID:portland-airbnb-20260923@pnw-family-trip
