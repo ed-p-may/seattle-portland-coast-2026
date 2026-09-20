@@ -267,7 +267,7 @@ footer {
 }
 
 @media (max-width: 720px) {
-  .nav-links a:not(.food-nav-link):not(.fishing-nav-link) { display: none; }
+  .nav-links a:not(.food-nav-link):not(.fishing-nav-link):not(.arch-nav-link) { display: none; }
   .guide-label-full { display: none; }
   .guide-label-short { display: inline; }
   .day-jump { justify-content: flex-start; }
